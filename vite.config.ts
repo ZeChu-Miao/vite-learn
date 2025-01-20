@@ -13,6 +13,7 @@ customLogger.info = (msg: string, options: LogOptions) => {
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/vite-learn',
   build: {
     sourcemap: true,
   },
